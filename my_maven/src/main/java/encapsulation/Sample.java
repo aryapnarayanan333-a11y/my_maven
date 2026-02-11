@@ -9,6 +9,7 @@ public class Sample {
 		ob.setter("Arya",1234);
 		ob.getter();
 
+		System.out.println("Git Update");
 	}
 
 }
