@@ -26,7 +26,12 @@ public class CollectionSample {
 	ob2.add("Night");
 	ob2.add("Evening");
 	ob2.add("Morning");
-	System.out.println(ob2);
+	
+	for(String b:ob2)
+	{
+		System.out.println(b);
+	}
+	/*System.out.println(ob2);
 	ob2.remove(1); // to remove index elements
 	System.out.println(ob2);
 
@@ -54,7 +59,7 @@ public class CollectionSample {
 		System.out.println(it.next());
 	}
 	it.remove(); // to remove last elements
-	System.out.println(ob2);
+	System.out.println(ob2);*/
 
 
 		
